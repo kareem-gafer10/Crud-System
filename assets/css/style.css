@@ -1,0 +1,33 @@
+
+.crud .form-group span {
+  color: red;
+}
+.crud label {
+  margin-bottom: 0.5rem;
+  color: #19524f;
+  font-size: 18px;
+}
+.form-control {
+  margin-bottom: 1.5rem;
+}
+textarea {
+  resize: none;
+}
+.crud #addBtn,
+.crud-table .table-head {
+  background-color: #8a2a4f;
+  color: #fff;
+}
+.crud #addBtn:hover {
+  background-color: #fff;
+  color: #8a2a4f;
+  border: 1px solid #8a2a4f;
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+  .crud,
+  .crud-table {
+    width: 100% !important;
+  }
+}
